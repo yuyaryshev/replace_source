@@ -3,11 +3,7 @@ import {
     ReplacementsInput,
     ReplacementsOverrides,
 } from "./Replacements";
-import {
-    replaceInFiles,
-    ReplacementData,
-    ReplacementInstance,
-} from "./replaceInFiles";
+import { ReplacementData, ReplacementInstance } from "./replaceInFiles";
 import { doReplace } from "./doReplace";
 import fs from "fs-extra";
 import { runMeld } from "./runMeld";
