@@ -21,9 +21,15 @@ export function watchFiles(inp: WatchFilesInput) {
             .on("add", (absolutePath: string) => {
                 inp.onRefreshOne(absolutePath);
             })
-            .on("unlink", (path: string) => log(`CODE00001593 File ${path} has been removed`))
-            .on("unlinkDir", (path: string) => log(`CODE00001595 Directory ${path} has been removed`))
-            .on("error", (error: string) => log(`CODE00001596 Watcher error: ${error}`))
+            .on("unlink", (path: string) =>
+                log(`CODE00001593 File ${path} has been removed`),
+            )
+            .on("unlinkDir", (path: string) =>
+                log(`CODE00001595 Directory ${path} has been removed`),
+            )
+            .on("error", (error: string) =>
+                log(`CODE00001596 Watcher error: ${error}`),
+            )
             // .on("addDir", (path: string) => log(`CODE00001594 Directory ${path} has been added`))
             // .on("ready", () => log(`CODE00001597 Initial scan complete. Ready for changes`))
             .on("raw", (event: any, path: string, details: any) => {

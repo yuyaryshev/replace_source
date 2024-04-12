@@ -18,7 +18,9 @@ export interface Replacements {
     regexps?: RegExpPair[];
     func?: (s: string) => string;
 }
-export function normalizeReplacements(replacementsInput: ReplacementsInput): Replacements {
+export function normalizeReplacements(
+    replacementsInput: ReplacementsInput,
+): Replacements {
     const strs: string[][] =
         replacementsInput.strs
             ?.trim()

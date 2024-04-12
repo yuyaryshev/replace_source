@@ -1,47 +1,67 @@
 {
     "00000001": {
-        "posAddr": "src/main.ts:13:24:684",
+        "posAddr": "src/main.ts:17:24:894",
         "message": "sourcePath is undefined!",
         "refs": []
     },
     "00000002": {
-        "posAddr": "src/main.ts:16:24:790",
+        "posAddr": "src/main.ts:20:24:1000",
         "message": "tempPath is undefined!",
         "refs": []
     },
     "00001562": {
-        "posAddr": "src/watchFiles.ts:12:18:401",
+        "posAddr": "src/watchFiles.ts:12:21:404",
         "message": "ConverterService.log:",
         "refs": []
     },
     "00001595": {
-        "posAddr": "src/watchFiles.ts:22:129:843",
+        "posAddr": "src/watchFiles.ts:22:129:846",
         "message": "Directory ${path} has been removed",
         "refs": []
     },
     "00001596": {
-        "posAddr": "src/watchFiles.ts:22:216:930",
+        "posAddr": "src/watchFiles.ts:22:216:933",
         "message": "Watcher error: ${error}",
         "refs": []
     },
     "00001593": {
-        "posAddr": "src/watchFiles.ts:22:44:758",
+        "posAddr": "src/watchFiles.ts:22:44:761",
         "message": "File ${path} has been removed",
         "refs": []
     },
     "00001594": {
-        "posAddr": "src/watchFiles.ts:23:45:1014",
+        "posAddr": "src/watchFiles.ts:23:45:1017",
         "message": "Directory ${path} has been added",
         "refs": []
     },
     "00001597": {
-        "posAddr": "src/watchFiles.ts:24:32:1094",
+        "posAddr": "src/watchFiles.ts:24:32:1097",
         "message": "Initial scan complete. Ready for changes",
         "refs": []
     },
     "00001598": {
-        "posAddr": "src/watchFiles.ts:27:12:1241",
+        "posAddr": "src/watchFiles.ts:27:12:1244",
         "message": "Raw event info:",
+        "refs": []
+    },
+    "00001563": {
+        "posAddr": "src/main.ts:35:20:1503",
+        "message": "replace_source is started",
+        "refs": []
+    },
+    "00001564": {
+        "posAddr": "src/main.ts:36:20:1564",
+        "message": "replacementsFile=${replacementsFile}",
+        "refs": []
+    },
+    "00001565": {
+        "posAddr": "src/main.ts:37:20:1639",
+        "message": "sourcePath=${replacements.sourcePath}",
+        "refs": []
+    },
+    "00001566": {
+        "posAddr": "src/main.ts:38:20:1715",
+        "message": "targetPath=${replacements.targetPath}",
         "refs": []
     }
 }

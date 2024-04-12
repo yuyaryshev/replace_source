@@ -5,6 +5,7 @@ const v: ReplacementsInput = {
     strs: `
 ObjStore Odb2State
 Odb2KeyValueRef Odb2TasetMPtr
+Odb2MultiLinkRef Odb2MapMPtr
     `,
 };
 export default v;

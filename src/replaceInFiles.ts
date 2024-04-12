@@ -5,10 +5,8 @@ export interface ReplacementData {
     targetFolder: string;
     callback: (s: string) => string;
 }
-
 export class ReplacementInstance {
     constructor(public readonly d: ReplacementData) {}
-
     replaceInFiles(relPath: string = ""): void {
         const sourcePath = join(this.d.sourceFolder, relPath);
         const sourcePaths = fs.readdirSync(sourcePath, {
@@ -16,7 +14,8 @@ export class ReplacementInstance {
         });
         for (const sourcePath of sourcePaths) {
             const subRelPath = join(relPath, sourcePath.name);
-            const { sourceFullPath, targetFullPath } = this.getAbsPaths(subRelPath);
+            const { sourceFullPath, targetFullPath } =
+                this.getAbsPaths(subRelPath);
             if (sourcePath.isDirectory()) {
                 fs.ensureDirSync(targetFullPath);
                 this.replaceInFiles(subRelPath);
@@ -25,19 +24,16 @@ export class ReplacementInstance {
             }
         }
     }
-
     replaceInFile(relPath: string): void {
         const { sourceFullPath, targetFullPath } = this.getAbsPaths(relPath);
         const s = fs.readFileSync(sourceFullPath, "utf8");
         const modifiedContent = this.d.callback(s);
         fs.outputFileSync(targetFullPath, modifiedContent);
     }
-
     toRelPath(absSourcePath: string): string {
         const { sourceFolder } = this.d;
         return relative(sourceFolder, absSourcePath);
     }
-
     getAbsPaths(relPath: string): {
         sourceFullPath: string;
         targetFullPath: string;
@@ -50,7 +46,6 @@ export class ReplacementInstance {
             targetFullPath,
         };
     }
-
     close() {
         // TODO close
     }

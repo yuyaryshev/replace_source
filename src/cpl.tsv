@@ -1,13 +1,16 @@
 ﻿path	package	class	function	severity	deleted_ts	a	sem_ids	cat	file_path	file_line	file_line_pos	source_pos	expectation	ylog_name	cpl_comment	has_ylog_on	text	anchor_key	cpl	tsv_line
-	main.ts								src/main.ts	13	24	684				0	sourcePath is undefined!	177dedc34f9fa423b46a11233c7fcdd655111d6bb51ed5154288723c6b98056b	CODE00000001	1
-	main.ts								src/main.ts	16	24	790				0	tempPath is undefined!	9fca95891d8bf2ecc3e1fda935e37b42d811d23dcf9545730366d89893a0bd3c	CODE00000002	2
-	watchFiles.ts								src/watchFiles.ts	12	18	401				0	ConverterService.log:	a9517799123653bc860a36a0495e0e1d32b434cf3345c727eec4d38e15696693	CODE00001562	3
-	watchFiles.ts								src/watchFiles.ts	17	15	575				0	File ${absolutePath} has been added	ad747e5b4b6c0ef2ba19121ce82d36a2a19d1ffe755a3446af63e5247282a4dd	CODE00001563	4
-	watchFiles.ts								src/watchFiles.ts	22	44	758				0	File ${path} has been removed	fa42773f8f79532e7d48375d30037fadc3bad52e905e9f2ca056490b5d3deb03	CODE00001593	5
-	watchFiles.ts								src/watchFiles.ts	22	129	843				0	Directory ${path} has been removed	f65aa89e80c1c159c491964348d63c100b8df22916454f3030f4e5724b1c1358	CODE00001595	6
-	watchFiles.ts								src/watchFiles.ts	22	216	930				0	Watcher error: ${error}	18e1957f155bc110d23e9694ea1ed7e7bb6731e9783b6eb87faee422c5160b8a	CODE00001596	7
-	watchFiles.ts								src/watchFiles.ts	23	45	1014				0	Directory ${path} has been added	bd573730b351e97934b65dacd7d181dc363a3559d050fb38559e3a6d2e95c529	CODE00001594	8
-	watchFiles.ts								src/watchFiles.ts	24	32	1094				0	Initial scan complete. Ready for changes	b4078f29a63debd0a222711079370a848b15e78288ffb29ce4bb26f72c3c12be	CODE00001597	9
-	watchFiles.ts								src/watchFiles.ts	27	12	1241				0	Raw event info:	1ea62a4d2bdae720f348baf0005a187f716648a3172a0525e9559eb1b7d33f10	CODE00001598	10
+	main.ts								src/main.ts	17	24	894				0	sourcePath is undefined!	08eae73d608c576c4da7537f052918eb11ee9d8445da2045d4c363c7212f56aa	CODE00000001	1
+	main.ts								src/main.ts	20	24	1000				0	tempPath is undefined!	7396e2e62cbdb513740aee2ff9b4913d6ce417cfea071e85796f691089539d7c	CODE00000002	2
+	main.ts								src/main.ts	35	20	1503				0	replace_source is started	1468d411a9dba2b1fb5aa2dafd4ed316deeafee3dfee24bd06232f3f69f289e4	CODE00001563	4
+	main.ts								src/main.ts	36	20	1564				0	replacementsFile=${replacementsFile}	34df75a183a625be289533d8ed90e471e26b80869cece1612d641897f1f4c3e8	CODE00001564	
+	main.ts								src/main.ts	37	20	1639				0	sourcePath=${replacements.sourcePath}	901ed834f7db4f6e35f9ef88611121d9c5d226ce62524ddbfbc56f64653b15ed	CODE00001565	
+	main.ts								src/main.ts	38	20	1715				0	targetPath=${replacements.targetPath}	d2ba6f19025b33aaedb9bcaf83bdc5a76880361ad66efa07d4db46b798b8c003	CODE00001566	
+	watchFiles.ts								src/watchFiles.ts	12	21	404				0	ConverterService.log:	634fc6a8998a7f8cb0cd05767a1d0eed1269128d786ad6cc0232a84635abf654	CODE00001562	3
+	watchFiles.ts								src/watchFiles.ts	22	44	761				0	File ${path} has been removed	bb84f735c3fdc576088b8cec1f2042773b1988806b49f48a12fc1325862ca0ed	CODE00001593	5
+	watchFiles.ts								src/watchFiles.ts	22	129	846				0	Directory ${path} has been removed	1b172521f967941d0f9e1a3bec5267b14e5ddef134505e7cce251c2684c6a7d9	CODE00001595	6
+	watchFiles.ts								src/watchFiles.ts	22	216	933				0	Watcher error: ${error}	35f0ef12e0c35adae6fe3581e2768cefb1939ebbc6b961a2d87cfd6e185980f9	CODE00001596	7
+	watchFiles.ts								src/watchFiles.ts	23	45	1017				0	Directory ${path} has been added	d9d19f4b7ecefd4716a245fe1585b2fd003389e5dfb80fb7e2a74da94b30662e	CODE00001594	8
+	watchFiles.ts								src/watchFiles.ts	24	32	1097				0	Initial scan complete. Ready for changes	b214029c4d92372ef14e3dbd11b255eb5ae7fc7d0ce9ca3a907a403f72c3d189	CODE00001597	9
+	watchFiles.ts								src/watchFiles.ts	27	12	1244				0	Raw event info:	15a1ae3ff1f8c0e1d38aec35290391b92c6471a6f0e67486ed6fe73bae10547c	CODE00001598	10
 	watchFiles.ts								src/watchFiles.ts	31	14	1539				0	File ${path} changed size to ${stats.size}	455e4180e4cd5a0f6f5b93c5b07a61d4abcf56d1cc598c88275b677c0a8dd3e8	CODE00001599	11
 	watchFiles.ts								src/watchFiles.ts	33	14	1626				0	No stats in change!	da3802368ac56386854081790b378cc8bf408ae9f1a4410998beda55045e999c	CODE00001600	12
