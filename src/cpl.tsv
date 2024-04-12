@@ -1,0 +1,13 @@
+﻿path	package	class	function	severity	deleted_ts	a	sem_ids	cat	file_path	file_line	file_line_pos	source_pos	expectation	ylog_name	cpl_comment	has_ylog_on	text	anchor_key	cpl	tsv_line
+	main.ts								src/main.ts	13	24	684				0	sourcePath is undefined!	177dedc34f9fa423b46a11233c7fcdd655111d6bb51ed5154288723c6b98056b	CODE00000001	1
+	main.ts								src/main.ts	16	24	790				0	tempPath is undefined!	9fca95891d8bf2ecc3e1fda935e37b42d811d23dcf9545730366d89893a0bd3c	CODE00000002	2
+	watchFiles.ts								src/watchFiles.ts	12	18	401				0	ConverterService.log:	a9517799123653bc860a36a0495e0e1d32b434cf3345c727eec4d38e15696693	CODE00001562	3
+	watchFiles.ts								src/watchFiles.ts	17	15	575				0	File ${absolutePath} has been added	ad747e5b4b6c0ef2ba19121ce82d36a2a19d1ffe755a3446af63e5247282a4dd	CODE00001563	4
+	watchFiles.ts								src/watchFiles.ts	22	44	758				0	File ${path} has been removed	fa42773f8f79532e7d48375d30037fadc3bad52e905e9f2ca056490b5d3deb03	CODE00001593	5
+	watchFiles.ts								src/watchFiles.ts	22	129	843				0	Directory ${path} has been removed	f65aa89e80c1c159c491964348d63c100b8df22916454f3030f4e5724b1c1358	CODE00001595	6
+	watchFiles.ts								src/watchFiles.ts	22	216	930				0	Watcher error: ${error}	18e1957f155bc110d23e9694ea1ed7e7bb6731e9783b6eb87faee422c5160b8a	CODE00001596	7
+	watchFiles.ts								src/watchFiles.ts	23	45	1014				0	Directory ${path} has been added	bd573730b351e97934b65dacd7d181dc363a3559d050fb38559e3a6d2e95c529	CODE00001594	8
+	watchFiles.ts								src/watchFiles.ts	24	32	1094				0	Initial scan complete. Ready for changes	b4078f29a63debd0a222711079370a848b15e78288ffb29ce4bb26f72c3c12be	CODE00001597	9
+	watchFiles.ts								src/watchFiles.ts	27	12	1241				0	Raw event info:	1ea62a4d2bdae720f348baf0005a187f716648a3172a0525e9559eb1b7d33f10	CODE00001598	10
+	watchFiles.ts								src/watchFiles.ts	31	14	1539				0	File ${path} changed size to ${stats.size}	455e4180e4cd5a0f6f5b93c5b07a61d4abcf56d1cc598c88275b677c0a8dd3e8	CODE00001599	11
+	watchFiles.ts								src/watchFiles.ts	33	14	1626				0	No stats in change!	da3802368ac56386854081790b378cc8bf408ae9f1a4410998beda55045e999c	CODE00001600	12

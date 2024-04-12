@@ -1,0 +1,47 @@
+{
+    "00000001": {
+        "posAddr": "src/main.ts:13:24:684",
+        "message": "sourcePath is undefined!",
+        "refs": []
+    },
+    "00000002": {
+        "posAddr": "src/main.ts:16:24:790",
+        "message": "tempPath is undefined!",
+        "refs": []
+    },
+    "00001562": {
+        "posAddr": "src/watchFiles.ts:12:18:401",
+        "message": "ConverterService.log:",
+        "refs": []
+    },
+    "00001595": {
+        "posAddr": "src/watchFiles.ts:22:129:843",
+        "message": "Directory ${path} has been removed",
+        "refs": []
+    },
+    "00001596": {
+        "posAddr": "src/watchFiles.ts:22:216:930",
+        "message": "Watcher error: ${error}",
+        "refs": []
+    },
+    "00001593": {
+        "posAddr": "src/watchFiles.ts:22:44:758",
+        "message": "File ${path} has been removed",
+        "refs": []
+    },
+    "00001594": {
+        "posAddr": "src/watchFiles.ts:23:45:1014",
+        "message": "Directory ${path} has been added",
+        "refs": []
+    },
+    "00001597": {
+        "posAddr": "src/watchFiles.ts:24:32:1094",
+        "message": "Initial scan complete. Ready for changes",
+        "refs": []
+    },
+    "00001598": {
+        "posAddr": "src/watchFiles.ts:27:12:1241",
+        "message": "Raw event info:",
+        "refs": []
+    }
+}

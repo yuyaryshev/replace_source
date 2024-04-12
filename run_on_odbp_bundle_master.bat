@@ -1,0 +1,1 @@
+cls & d: && cd D:\b\Mine\GIT_Work\replace_source && node lib\cjs\main.js
